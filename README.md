@@ -2,7 +2,7 @@
 
 ## Token generation
 
-In order to access the Cohort API you need a valid token. Tokens can be generated using the <apiKey> and <secret> provided. Access tokens are valid for 30 days from the time of creation and you should add logic to your code to generate a new token in the case of an expired token.
+In order to access the Cohort API you need a valid token. Tokens can be generated using the "<apiKey>" and "<secret>" provided. Access tokens are valid for 30 days from the time of creation and you should add logic to your code to generate a new token in the case of an expired token.
 
     POST https://api.cohort.is/access/token
 
