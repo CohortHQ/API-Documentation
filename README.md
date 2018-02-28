@@ -29,11 +29,11 @@ All requests should include the generated token in the Authorization header
 
 Provides info on up to 5 people who the user knows who could introduce them to a person. Also provides a total count of the people Cohort knows about that could introduce them.
 
-    GET https://api.cohort.is/api/v1/twitter/intros?user=<twitterScreenName>&person=<twitterScreenName>
+    GET https://api.cohort.is/api/v1/intros?user=<twitterScreenName>&person=<twitterScreenName>
 
 Example request:
 
-    GET https://api.cohort.is/api/v1/twitter/intros?user=EamonLeonard&person=chacon
+    GET https://api.cohort.is/api/v1/intros?user=EamonLeonard&person=harper
 
 Example response:
 
@@ -43,29 +43,29 @@ Example response:
         "count":8,
         "inCommon":[
           {
-            "name":"Ben Foo",
-            "profileImageUrl":"https://d1dqcc0uivlrvs.cloudfront.net/0.png",
-            "twitterScreenName":"benFoo"
+              "name": "Ben Huh",
+              "profileImageUrl": "https://d1dqcc0uivlrvs.cloudfront.net/8237.png",
+              "twitterScreenName": "benhuh"
           },
           {
-            "name":"Ben Foo",
-            "profileImageUrl":"https://d1dqcc0uivlrvs.cloudfront.net/0.png",
-            "twitterScreenName":"benFoo"
+              "name": "Joe Stump",
+              "profileImageUrl": "https://d1dqcc0uivlrvs.cloudfront.net/2792.png",
+              "twitterScreenName": "joestump"
           },
           {
-            "name":"Ben Foo",
-            "profileImageUrl":"https://d1dqcc0uivlrvs.cloudfront.net/0.png",
-            "twitterScreenName":"benFoo"
+              "name": "Dylan Richard",
+              "profileImageUrl": "https://d1dqcc0uivlrvs.cloudfront.net/9919.png",
+              "twitterScreenName": "dylanr"
           },
           {
-            "name":"Ben Foo",
-            "profileImageUrl":"https://d1dqcc0uivlrvs.cloudfront.net/0.png",
-            "twitterScreenName":"benFoo"
+              "name": "John Collison",
+              "profileImageUrl": "https://d1dqcc0uivlrvs.cloudfront.net/4554.png",
+              "twitterScreenName": "collision"
           },
           {
-            "name":"Ben Foo",
-            "profileImageUrl":"https://d1dqcc0uivlrvs.cloudfront.net/0.png",
-            "twitterScreenName":"benFoo"
+              "name": "Alex Sexton",
+              "profileImageUrl": "https://d1dqcc0uivlrvs.cloudfront.net/10195.png",
+              "twitterScreenName": "SlexAxton"
           }
         ]
       }
